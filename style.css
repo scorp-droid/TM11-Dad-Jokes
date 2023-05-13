@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #686de0;
+  background: linear-gradient(45deg, rgb(188, 58, 181), rgb(251, 249, 251));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #efc5e6;
+  box-shadow: 0px 5px 7px 8px rgba(255, 0, 108, 0.4),
+      0px 3px 13px -1px rgba(255, 0, 108, 0.29),
+      0px -4px 1px 0px rgba(255, 0, 108, 0.22) inset,
+      0px 2px 10px 2px rgba(255, 0, 108, 0.28);
+    background-color: rgba(239, 215, 232, 0.5);
+    border: 1px solid rgba(255, 0, 108, 0.01);
+    border-radius: 60px;
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 100%;
+  width: 50rem;
+}
+
+h3 {
+  margin: 0;
+  opacity: .5;
+  letter-spacing: 2px;
+  color: #7e14e2;
+}
+
+.joke {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+  margin: 50px auto;
+  max-width: 37rem;
+}
+
+.btn {
+  background-color: #ae61de;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
